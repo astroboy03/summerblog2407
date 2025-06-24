@@ -9,6 +9,15 @@ body {
  max-width: 97%;
 } 
 
+::selection {
+  background: rgba(109, 195, 43, 1);
+  /* background-color: lightgreen; */
+  color: whitesmoke;
+
+
+}
+
+
 @media (max-width: 860px) {
   body {
     font-size: 7.8vw;
@@ -106,6 +115,7 @@ img {
 a:hover {
   color: blue;
   text-decoration: underline;
+  /* background: rgba(109, 195, 43, 1); */
   
 
 h{
@@ -140,6 +150,11 @@ p{
 .do {
   color: rgb(255, 194, 12); 
 }
+
+.intro {
+  color: black;
+}
+
 .kz {
   color: rgb(233, 178, 187); 
 }
@@ -151,6 +166,8 @@ p{
 .dlee {
   color: rgb(213, 225, 76); 
 }
+
+
 
 
 </style>
